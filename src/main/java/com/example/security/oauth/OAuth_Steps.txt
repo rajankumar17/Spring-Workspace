@@ -1,0 +1,10 @@
+Link :https://howtodoinjava.com/spring-boot2/oauth2-auth-server/
+
+We have an API http://localhost:8091/crudemployees/, which we can access by directly putting username/password in the login form,
+but third party application cannot access the API as we do in browsers. They need an oauth2 token.
+
+5.1. Get authorization grant code from user
+As shown in the above sequence diagram, the first step is to get authorization grant from resource owner from
+URL : http://localhost:8091/oauth/authorize?client_id=clientapp&response_type=code&scope=read_profile_info
+
+It will bring a login page. Provide a username and password. For this demo, use “humptydumpty” and “123456”.
