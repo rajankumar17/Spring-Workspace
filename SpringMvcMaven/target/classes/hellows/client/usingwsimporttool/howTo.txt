@@ -1,0 +1,6 @@
+use wsimport -keep http://localhost:8080/SpringMvcMaven/services/hellosoap?wsdl
+
+and the copy the generated interfacea and service file only and write a client.
+run the client.
+
+don use the ObjectFactory,Reponse and other files.

@@ -1,0 +1,7 @@
+for services
+http://localhost:8080/SpringMvcMaven/services/
+
+for spring controller
+http://localhost:8080/SpringMvcMaven/abc/status/all
+http://localhost:8080/SpringMvcMaven/abc/status
+http://localhost:8080/SpringMvcMaven/abc/hello
