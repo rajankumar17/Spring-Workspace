@@ -1,0 +1,669 @@
+13-Nov-2023 14:58:50.686 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.82
+13-Nov-2023 14:58:50.694 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Oct 11 2023 13:15:08 UTC
+13-Nov-2023 14:58:50.694 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.82.0
+13-Nov-2023 14:58:50.694 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+13-Nov-2023 14:58:50.694 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+13-Nov-2023 14:58:50.695 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+13-Nov-2023 14:58:50.695 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-11.0.9
+13-Nov-2023 14:58:50.695 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.9+7-LTS
+13-Nov-2023 14:58:50.696 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+13-Nov-2023 14:58:50.696 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\Rajan\IdeaProjects\SpringSecurityUsingJavaAnnotation
+13-Nov-2023 14:58:50.696 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\Rajan\Tomcat
+13-Nov-2023 14:58:50.726 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+13-Nov-2023 14:58:50.727 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+13-Nov-2023 14:58:50.727 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+13-Nov-2023 14:58:50.727 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+13-Nov-2023 14:58:50.728 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+13-Nov-2023 14:58:50.728 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\Rajan\Tomcat
+13-Nov-2023 14:58:50.728 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\Rajan\IdeaProjects\SpringSecurityUsingJavaAnnotation
+13-Nov-2023 14:58:50.728 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\Rajan\IdeaProjects\SpringSecurityUsingJavaAnnotation\temp
+13-Nov-2023 14:58:50.728 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\Rajan\IdeaProjects\SpringSecurityUsingJavaAnnotation\conf\logging.properties
+13-Nov-2023 14:58:50.728 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+13-Nov-2023 14:58:50.729 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.3\lib\idea_rt.jar=52918:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.3\bin
+13-Nov-2023 14:58:50.729 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+13-Nov-2023 14:58:50.738 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.39] using APR version [1.7.4].
+13-Nov-2023 14:58:50.739 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+13-Nov-2023 14:58:50.739 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+13-Nov-2023 14:58:50.757 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.0.11 19 Sep 2023]
+13-Nov-2023 14:58:51.652 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+13-Nov-2023 14:58:51.755 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1716] milliseconds
+13-Nov-2023 14:58:52.053 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+13-Nov-2023 14:58:52.053 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.82]
+13-Nov-2023 14:58:52.078 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\Rajan\IdeaProjects\SpringSecurityUsingJavaAnnotation\conf\Catalina\localhost\SpringSecurityUsingJavaAnnotation.xml]
+13-Nov-2023 14:58:56.559 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+13-Nov-2023 14:58:57.303 INFO [main] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization started
+13-Nov-2023 14:58:57.326 INFO [main] org.springframework.web.context.support.AnnotationConfigWebApplicationContext.prepareRefresh Refreshing Root WebApplicationContext: startup date [Mon Nov 13 14:58:57 IST 2023]; root of context hierarchy
+13-Nov-2023 14:58:57.549 INFO [main] org.springframework.web.context.support.AnnotationConfigWebApplicationContext.loadBeanDefinitions Registering annotated classes: [class com.journaldev.spring.secuity.config.LoginApplicationConfig]
+13-Nov-2023 14:59:00.722 INFO [main] org.springframework.security.web.DefaultSecurityFilterChain.<init> Creating filter chain: Ant [pattern='/'], [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7cd3860, org.springframework.security.web.context.SecurityContextPersistenceFilter@6e90cec8, org.springframework.security.web.header.HeaderWriterFilter@35c00c, org.springframework.security.web.csrf.CsrfFilter@2d705998, org.springframework.security.web.authentication.logout.LogoutFilter@2a5efbb9, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@155c7eae, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@69c227fd, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5d4a34ff, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@44f23927, org.springframework.security.web.session.SessionManagementFilter@180cc0df, org.springframework.security.web.access.ExceptionTranslationFilter@4ca4f762, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@1c43e84e]
+13-Nov-2023 14:59:00.788 SEVERE [main] org.springframework.web.context.ContextLoader.initWebApplicationContext Context initialization failed
+	org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'com.journaldev.spring.web.controller.LoginController$HomeController': Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Could not instantiate bean class [com.journaldev.spring.web.controller.LoginController$HomeController]: No default constructor found; nested exception is java.lang.NoSuchMethodException: com.journaldev.spring.web.controller.LoginController$HomeController.<init>()
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1076)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1021)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:504)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:475)
+		at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:304)
+		at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:228)
+		at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:300)
+		at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:195)
+		at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:700)
+		at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:760)
+		at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:482)
+		at org.springframework.web.context.ContextLoader.configureAndRefreshWebApplicationContext(ContextLoader.java:403)
+		at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:306)
+		at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:106)
+		at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4460)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4914)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:683)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:658)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:661)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:689)
+		at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1888)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:118)
+		at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:582)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:472)
+		at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1617)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:318)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:114)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:402)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:345)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:893)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:794)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1332)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1322)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:140)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:866)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:248)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:433)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:921)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:772)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:347)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:478)
+	Caused by: org.springframework.beans.BeanInstantiationException: Could not instantiate bean class [com.journaldev.spring.web.controller.LoginController$HomeController]: No default constructor found; nested exception is java.lang.NoSuchMethodException: com.journaldev.spring.web.controller.LoginController$HomeController.<init>()
+		at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:85)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1069)
+		... 54 more
+	Caused by: java.lang.NoSuchMethodException: com.journaldev.spring.web.controller.LoginController$HomeController.<init>()
+		at java.base/java.lang.Class.getConstructor0(Class.java:3349)
+		at java.base/java.lang.Class.getDeclaredConstructor(Class.java:2553)
+		at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:80)
+		... 55 more
+13-Nov-2023 14:59:00.794 SEVERE [main] org.apache.catalina.core.StandardContext.startInternal One or more listeners failed to start. Full details will be found in the appropriate container log file
+13-Nov-2023 14:59:01.266 WARNING [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [471] milliseconds.
+13-Nov-2023 14:59:01.267 SEVERE [main] org.apache.catalina.core.StandardContext.startInternal Context [/SpringSecurityUsingJavaAnnotation] startup failed due to previous errors
+13-Nov-2023 14:59:01.292 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\Rajan\IdeaProjects\SpringSecurityUsingJavaAnnotation\conf\Catalina\localhost\SpringSecurityUsingJavaAnnotation.xml] has finished in [9,215] ms
+13-Nov-2023 14:59:01.297 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+13-Nov-2023 14:59:01.332 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [9576] milliseconds
+13-Nov-2023 15:00:52.021 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.82
+13-Nov-2023 15:00:52.027 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Oct 11 2023 13:15:08 UTC
+13-Nov-2023 15:00:52.027 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.82.0
+13-Nov-2023 15:00:52.027 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+13-Nov-2023 15:00:52.028 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+13-Nov-2023 15:00:52.028 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+13-Nov-2023 15:00:52.028 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-11.0.9
+13-Nov-2023 15:00:52.028 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.9+7-LTS
+13-Nov-2023 15:00:52.028 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+13-Nov-2023 15:00:52.028 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\Rajan\IdeaProjects\SpringSecurityUsingJavaAnnotation
+13-Nov-2023 15:00:52.029 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\Rajan\Tomcat
+13-Nov-2023 15:00:52.056 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+13-Nov-2023 15:00:52.056 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+13-Nov-2023 15:00:52.056 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+13-Nov-2023 15:00:52.057 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+13-Nov-2023 15:00:52.057 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+13-Nov-2023 15:00:52.057 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\Rajan\Tomcat
+13-Nov-2023 15:00:52.057 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\Rajan\IdeaProjects\SpringSecurityUsingJavaAnnotation
+13-Nov-2023 15:00:52.058 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\Rajan\IdeaProjects\SpringSecurityUsingJavaAnnotation\temp
+13-Nov-2023 15:00:52.058 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\Rajan\IdeaProjects\SpringSecurityUsingJavaAnnotation\conf\logging.properties
+13-Nov-2023 15:00:52.058 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+13-Nov-2023 15:00:52.058 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.3\lib\idea_rt.jar=52948:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.3\bin
+13-Nov-2023 15:00:52.058 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+13-Nov-2023 15:00:52.065 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.39] using APR version [1.7.4].
+13-Nov-2023 15:00:52.066 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+13-Nov-2023 15:00:52.066 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+13-Nov-2023 15:00:52.078 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.0.11 19 Sep 2023]
+13-Nov-2023 15:00:52.837 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+13-Nov-2023 15:00:52.900 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1762] milliseconds
+13-Nov-2023 15:00:53.056 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+13-Nov-2023 15:00:53.056 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.82]
+13-Nov-2023 15:00:53.091 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\Rajan\IdeaProjects\SpringSecurityUsingJavaAnnotation\conf\Catalina\localhost\SpringSecurityUsingJavaAnnotation.xml]
+13-Nov-2023 15:00:57.872 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+13-Nov-2023 15:00:58.536 INFO [main] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization started
+13-Nov-2023 15:00:58.559 INFO [main] org.springframework.web.context.support.AnnotationConfigWebApplicationContext.prepareRefresh Refreshing Root WebApplicationContext: startup date [Mon Nov 13 15:00:58 IST 2023]; root of context hierarchy
+13-Nov-2023 15:00:58.852 INFO [main] org.springframework.web.context.support.AnnotationConfigWebApplicationContext.loadBeanDefinitions Registering annotated classes: [class com.journaldev.spring.secuity.config.LoginApplicationConfig]
+13-Nov-2023 15:01:02.023 INFO [main] org.springframework.security.web.DefaultSecurityFilterChain.<init> Creating filter chain: Ant [pattern='/'], [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@bcd9ed6, org.springframework.security.web.context.SecurityContextPersistenceFilter@5690c2a8, org.springframework.security.web.header.HeaderWriterFilter@1a85e86e, org.springframework.security.web.csrf.CsrfFilter@dd07be8, org.springframework.security.web.authentication.logout.LogoutFilter@4e9bd2c8, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@a2fb8a5, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7cbfbcd1, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@446a5aa5, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3ffa0f38, org.springframework.security.web.session.SessionManagementFilter@21d3d6ec, org.springframework.security.web.access.ExceptionTranslationFilter@1c4aa701, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@1bbb48dd]
+13-Nov-2023 15:01:02.882 INFO [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.registerHandlerMethod Mapped "{[/],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.journaldev.spring.web.controller.HomeController.index()
+13-Nov-2023 15:01:02.968 INFO [main] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization completed in 4432 ms
+13-Nov-2023 15:01:03.327 WARNING [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [356] milliseconds.
+13-Nov-2023 15:01:03.344 INFO [main] org.springframework.web.servlet.DispatcherServlet.initServletBean FrameworkServlet 'dispatcher': initialization started
+13-Nov-2023 15:01:03.349 INFO [main] org.springframework.web.context.support.AnnotationConfigWebApplicationContext.prepareRefresh Refreshing WebApplicationContext for namespace 'dispatcher-servlet': startup date [Mon Nov 13 15:01:03 IST 2023]; parent: Root WebApplicationContext
+13-Nov-2023 15:01:03.423 INFO [main] org.springframework.web.servlet.DispatcherServlet.initServletBean FrameworkServlet 'dispatcher': initialization completed in 78 ms
+13-Nov-2023 15:01:03.437 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\Rajan\IdeaProjects\SpringSecurityUsingJavaAnnotation\conf\Catalina\localhost\SpringSecurityUsingJavaAnnotation.xml] has finished in [10,346] ms
+13-Nov-2023 15:01:03.443 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+13-Nov-2023 15:01:03.467 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [10565] milliseconds
+13-Nov-2023 15:05:47.279 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.82
+13-Nov-2023 15:05:47.285 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Oct 11 2023 13:15:08 UTC
+13-Nov-2023 15:05:47.286 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.82.0
+13-Nov-2023 15:05:47.286 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+13-Nov-2023 15:05:47.286 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+13-Nov-2023 15:05:47.286 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+13-Nov-2023 15:05:47.286 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-11.0.9
+13-Nov-2023 15:05:47.286 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.9+7-LTS
+13-Nov-2023 15:05:47.287 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+13-Nov-2023 15:05:47.287 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\Rajan\IdeaProjects\SpringSecurityUsingJavaAnnotation
+13-Nov-2023 15:05:47.287 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\Rajan\Tomcat
+13-Nov-2023 15:05:47.313 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+13-Nov-2023 15:05:47.313 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+13-Nov-2023 15:05:47.313 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+13-Nov-2023 15:05:47.313 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+13-Nov-2023 15:05:47.313 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+13-Nov-2023 15:05:47.314 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\Rajan\Tomcat
+13-Nov-2023 15:05:47.314 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\Rajan\IdeaProjects\SpringSecurityUsingJavaAnnotation
+13-Nov-2023 15:05:47.314 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\Rajan\IdeaProjects\SpringSecurityUsingJavaAnnotation\temp
+13-Nov-2023 15:05:47.314 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\Rajan\IdeaProjects\SpringSecurityUsingJavaAnnotation\conf\logging.properties
+13-Nov-2023 15:05:47.314 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+13-Nov-2023 15:05:47.314 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.3\lib\idea_rt.jar=53020:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.3\bin
+13-Nov-2023 15:05:47.314 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+13-Nov-2023 15:05:47.322 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.39] using APR version [1.7.4].
+13-Nov-2023 15:05:47.323 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+13-Nov-2023 15:05:47.323 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+13-Nov-2023 15:05:47.340 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.0.11 19 Sep 2023]
+13-Nov-2023 15:05:48.103 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+13-Nov-2023 15:05:48.165 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1585] milliseconds
+13-Nov-2023 15:05:48.294 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+13-Nov-2023 15:05:48.294 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.82]
+13-Nov-2023 15:05:48.321 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\Rajan\IdeaProjects\SpringSecurityUsingJavaAnnotation\conf\Catalina\localhost\SpringSecurityUsingJavaAnnotation.xml]
+13-Nov-2023 15:05:53.215 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+13-Nov-2023 15:05:53.959 INFO [main] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization started
+13-Nov-2023 15:05:53.985 INFO [main] org.springframework.web.context.support.AnnotationConfigWebApplicationContext.prepareRefresh Refreshing Root WebApplicationContext: startup date [Mon Nov 13 15:05:53 IST 2023]; root of context hierarchy
+13-Nov-2023 15:05:54.270 INFO [main] org.springframework.web.context.support.AnnotationConfigWebApplicationContext.loadBeanDefinitions Registering annotated classes: [class com.journaldev.spring.secuity.config.LoginApplicationConfig]
+13-Nov-2023 15:05:57.966 INFO [main] org.springframework.security.web.DefaultSecurityFilterChain.<init> Creating filter chain: Ant [pattern='/'], [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@62f7d7bd, org.springframework.security.web.context.SecurityContextPersistenceFilter@25435731, org.springframework.security.web.header.HeaderWriterFilter@3831f4c2, org.springframework.security.web.csrf.CsrfFilter@5296f00c, org.springframework.security.web.authentication.logout.LogoutFilter@20c283b4, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@6e6c8854, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5ef591af, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@8ecc457, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@de63949, org.springframework.security.web.session.SessionManagementFilter@44de3b46, org.springframework.security.web.access.ExceptionTranslationFilter@342dc040, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@323c6f9c]
+13-Nov-2023 15:05:58.899 INFO [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.registerHandlerMethod Mapped "{[/],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.journaldev.spring.web.controller.HomeController.index()
+13-Nov-2023 15:05:59.161 INFO [main] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization completed in 5201 ms
+13-Nov-2023 15:06:00.323 WARNING [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [1,159] milliseconds.
+13-Nov-2023 15:06:00.344 INFO [main] org.springframework.web.servlet.DispatcherServlet.initServletBean FrameworkServlet 'dispatcher': initialization started
+13-Nov-2023 15:06:00.352 INFO [main] org.springframework.web.context.support.AnnotationConfigWebApplicationContext.prepareRefresh Refreshing WebApplicationContext for namespace 'dispatcher-servlet': startup date [Mon Nov 13 15:06:00 IST 2023]; parent: Root WebApplicationContext
+13-Nov-2023 15:06:00.447 INFO [main] org.springframework.web.servlet.DispatcherServlet.initServletBean FrameworkServlet 'dispatcher': initialization completed in 101 ms
+13-Nov-2023 15:06:00.472 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\Rajan\IdeaProjects\SpringSecurityUsingJavaAnnotation\conf\Catalina\localhost\SpringSecurityUsingJavaAnnotation.xml] has finished in [12,151] ms
+13-Nov-2023 15:06:00.479 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+13-Nov-2023 15:06:00.526 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [12361] milliseconds
+13-Nov-2023 15:08:23.256 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.82
+13-Nov-2023 15:08:23.265 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Oct 11 2023 13:15:08 UTC
+13-Nov-2023 15:08:23.265 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.82.0
+13-Nov-2023 15:08:23.265 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+13-Nov-2023 15:08:23.265 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+13-Nov-2023 15:08:23.265 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+13-Nov-2023 15:08:23.266 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-11.0.9
+13-Nov-2023 15:08:23.266 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.9+7-LTS
+13-Nov-2023 15:08:23.266 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+13-Nov-2023 15:08:23.266 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\Rajan\IdeaProjects\SpringSecurityUsingJavaAnnotation
+13-Nov-2023 15:08:23.266 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\Rajan\Tomcat
+13-Nov-2023 15:08:23.300 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+13-Nov-2023 15:08:23.300 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+13-Nov-2023 15:08:23.301 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+13-Nov-2023 15:08:23.301 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+13-Nov-2023 15:08:23.301 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+13-Nov-2023 15:08:23.301 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\Rajan\Tomcat
+13-Nov-2023 15:08:23.302 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\Rajan\IdeaProjects\SpringSecurityUsingJavaAnnotation
+13-Nov-2023 15:08:23.303 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\Rajan\IdeaProjects\SpringSecurityUsingJavaAnnotation\temp
+13-Nov-2023 15:08:23.303 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\Rajan\IdeaProjects\SpringSecurityUsingJavaAnnotation\conf\logging.properties
+13-Nov-2023 15:08:23.303 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+13-Nov-2023 15:08:23.303 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.3\lib\idea_rt.jar=53060:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.3\bin
+13-Nov-2023 15:08:23.303 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+13-Nov-2023 15:08:23.312 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.39] using APR version [1.7.4].
+13-Nov-2023 15:08:23.313 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+13-Nov-2023 15:08:23.313 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+13-Nov-2023 15:08:23.327 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.0.11 19 Sep 2023]
+13-Nov-2023 15:08:24.044 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+13-Nov-2023 15:08:24.100 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1555] milliseconds
+13-Nov-2023 15:08:24.233 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+13-Nov-2023 15:08:24.234 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.82]
+13-Nov-2023 15:08:24.256 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\Rajan\IdeaProjects\SpringSecurityUsingJavaAnnotation\conf\Catalina\localhost\SpringSecurityUsingJavaAnnotation.xml]
+13-Nov-2023 15:08:29.182 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+13-Nov-2023 15:08:29.919 INFO [main] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization started
+13-Nov-2023 15:08:29.945 INFO [main] org.springframework.web.context.support.AnnotationConfigWebApplicationContext.prepareRefresh Refreshing Root WebApplicationContext: startup date [Mon Nov 13 15:08:29 IST 2023]; root of context hierarchy
+13-Nov-2023 15:08:30.203 INFO [main] org.springframework.web.context.support.AnnotationConfigWebApplicationContext.loadBeanDefinitions Registering annotated classes: [class com.journaldev.spring.secuity.config.LoginApplicationConfig]
+13-Nov-2023 15:08:33.394 INFO [main] org.springframework.security.web.DefaultSecurityFilterChain.<init> Creating filter chain: Ant [pattern='/'], [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@628bcf2c, org.springframework.security.web.context.SecurityContextPersistenceFilter@64fc6470, org.springframework.security.web.header.HeaderWriterFilter@fcd3a6f, org.springframework.security.web.csrf.CsrfFilter@14c5283, org.springframework.security.web.authentication.logout.LogoutFilter@96075c0, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@17e2835c, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6bd2f039, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@75c15f76, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4b76251c, org.springframework.security.web.session.SessionManagementFilter@53fc870f, org.springframework.security.web.access.ExceptionTranslationFilter@73852720, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@26feccf7]
+13-Nov-2023 15:08:34.055 INFO [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.registerHandlerMethod Mapped "{[/],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.journaldev.spring.web.controller.HomeController.index()
+13-Nov-2023 15:08:34.345 INFO [main] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization completed in 4426 ms
+13-Nov-2023 15:08:34.783 WARNING [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [436] milliseconds.
+13-Nov-2023 15:08:34.798 INFO [main] org.springframework.web.servlet.DispatcherServlet.initServletBean FrameworkServlet 'dispatcher': initialization started
+13-Nov-2023 15:08:34.804 INFO [main] org.springframework.web.context.support.AnnotationConfigWebApplicationContext.prepareRefresh Refreshing WebApplicationContext for namespace 'dispatcher-servlet': startup date [Mon Nov 13 15:08:34 IST 2023]; parent: Root WebApplicationContext
+13-Nov-2023 15:08:34.871 INFO [main] org.springframework.web.servlet.DispatcherServlet.initServletBean FrameworkServlet 'dispatcher': initialization completed in 73 ms
+13-Nov-2023 15:08:34.889 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\Rajan\IdeaProjects\SpringSecurityUsingJavaAnnotation\conf\Catalina\localhost\SpringSecurityUsingJavaAnnotation.xml] has finished in [10,632] ms
+13-Nov-2023 15:08:34.895 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+13-Nov-2023 15:08:34.922 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [10821] milliseconds
+13-Nov-2023 15:09:42.088 WARNING [http-nio-8080-exec-10] org.springframework.web.servlet.PageNotFound.noHandlerFound No mapping found for HTTP request with URI [/SpringSecurityUsingJavaAnnotation/login] in DispatcherServlet with name 'dispatcher'
+13-Nov-2023 15:09:47.395 WARNING [http-nio-8080-exec-2] org.springframework.web.servlet.PageNotFound.noHandlerFound No mapping found for HTTP request with URI [/SpringSecurityUsingJavaAnnotation/index] in DispatcherServlet with name 'dispatcher'
+13-Nov-2023 15:12:06.148 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.82
+13-Nov-2023 15:12:06.164 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Oct 11 2023 13:15:08 UTC
+13-Nov-2023 15:12:06.165 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.82.0
+13-Nov-2023 15:12:06.166 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+13-Nov-2023 15:12:06.166 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+13-Nov-2023 15:12:06.166 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+13-Nov-2023 15:12:06.166 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-11.0.9
+13-Nov-2023 15:12:06.167 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.9+7-LTS
+13-Nov-2023 15:12:06.167 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+13-Nov-2023 15:12:06.168 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\Rajan\IdeaProjects\SpringSecurityUsingJavaAnnotation
+13-Nov-2023 15:12:06.168 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\Rajan\Tomcat
+13-Nov-2023 15:12:06.201 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+13-Nov-2023 15:12:06.201 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+13-Nov-2023 15:12:06.201 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+13-Nov-2023 15:12:06.201 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+13-Nov-2023 15:12:06.202 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+13-Nov-2023 15:12:06.202 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -agentlib:jdwp=transport=dt_socket,address=127.0.0.1:53115,suspend=y,server=n
+13-Nov-2023 15:12:06.202 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\Rajan\Tomcat
+13-Nov-2023 15:12:06.203 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\Rajan\IdeaProjects\SpringSecurityUsingJavaAnnotation
+13-Nov-2023 15:12:06.203 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\Rajan\IdeaProjects\SpringSecurityUsingJavaAnnotation\temp
+13-Nov-2023 15:12:06.203 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\Rajan\IdeaProjects\SpringSecurityUsingJavaAnnotation\conf\logging.properties
+13-Nov-2023 15:12:06.204 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+13-Nov-2023 15:12:06.204 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:C:\Users\Rajan\AppData\Local\JetBrains\IdeaIC2020.3\captureAgent\debugger-agent.jar
+13-Nov-2023 15:12:06.204 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+13-Nov-2023 15:12:06.212 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.39] using APR version [1.7.4].
+13-Nov-2023 15:12:06.212 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+13-Nov-2023 15:12:06.213 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+13-Nov-2023 15:12:06.233 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.0.11 19 Sep 2023]
+13-Nov-2023 15:12:07.352 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+13-Nov-2023 15:12:07.442 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [2085] milliseconds
+13-Nov-2023 15:12:07.630 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+13-Nov-2023 15:12:07.631 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.82]
+13-Nov-2023 15:12:07.662 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\Rajan\IdeaProjects\SpringSecurityUsingJavaAnnotation\conf\Catalina\localhost\SpringSecurityUsingJavaAnnotation.xml]
+13-Nov-2023 15:12:12.012 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+13-Nov-2023 15:12:12.804 INFO [main] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization started
+13-Nov-2023 15:12:12.831 INFO [main] org.springframework.web.context.support.AnnotationConfigWebApplicationContext.prepareRefresh Refreshing Root WebApplicationContext: startup date [Mon Nov 13 15:12:12 IST 2023]; root of context hierarchy
+13-Nov-2023 15:12:13.148 INFO [main] org.springframework.web.context.support.AnnotationConfigWebApplicationContext.loadBeanDefinitions Registering annotated classes: [class com.journaldev.spring.secuity.config.LoginApplicationConfig]
+13-Nov-2023 15:12:16.592 INFO [main] org.springframework.security.web.DefaultSecurityFilterChain.<init> Creating filter chain: Ant [pattern='/'], [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6b630d4b, org.springframework.security.web.context.SecurityContextPersistenceFilter@7b2f8152, org.springframework.security.web.header.HeaderWriterFilter@3ad558bf, org.springframework.security.web.csrf.CsrfFilter@1e1ea16d, org.springframework.security.web.authentication.logout.LogoutFilter@2e91cf69, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@7d483ebe, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6738e8b2, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@229514ff, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@70aa03c0, org.springframework.security.web.session.SessionManagementFilter@6e8aea7e, org.springframework.security.web.access.ExceptionTranslationFilter@13c81bc5, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@30cb223b]
+13-Nov-2023 15:12:17.006 INFO [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.registerHandlerMethod Mapped "{[/],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.journaldev.spring.web.controller.HomeController.index()
+13-Nov-2023 15:12:17.771 INFO [main] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization completed in 4966 ms
+13-Nov-2023 15:12:18.135 WARNING [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [360] milliseconds.
+13-Nov-2023 15:12:18.153 INFO [main] org.springframework.web.servlet.DispatcherServlet.initServletBean FrameworkServlet 'dispatcher': initialization started
+13-Nov-2023 15:12:18.160 INFO [main] org.springframework.web.context.support.AnnotationConfigWebApplicationContext.prepareRefresh Refreshing WebApplicationContext for namespace 'dispatcher-servlet': startup date [Mon Nov 13 15:12:18 IST 2023]; parent: Root WebApplicationContext
+13-Nov-2023 15:12:18.251 INFO [main] org.springframework.web.servlet.DispatcherServlet.initServletBean FrameworkServlet 'dispatcher': initialization completed in 98 ms
+13-Nov-2023 15:12:18.270 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\Rajan\IdeaProjects\SpringSecurityUsingJavaAnnotation\conf\Catalina\localhost\SpringSecurityUsingJavaAnnotation.xml] has finished in [10,608] ms
+13-Nov-2023 15:12:18.279 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+13-Nov-2023 15:12:18.318 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [10875] milliseconds
+13-Nov-2023 15:17:29.008 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+13-Nov-2023 15:17:31.369 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+13-Nov-2023 15:17:31.375 INFO [Thread-1] org.springframework.web.context.support.AnnotationConfigWebApplicationContext.doClose Closing WebApplicationContext for namespace 'dispatcher-servlet': startup date [Mon Nov 13 15:12:18 IST 2023]; parent: Root WebApplicationContext
+13-Nov-2023 15:17:31.418 INFO [Thread-1] org.springframework.web.context.support.AnnotationConfigWebApplicationContext.doClose Closing Root WebApplicationContext: startup date [Mon Nov 13 15:12:12 IST 2023]; root of context hierarchy
+13-Nov-2023 15:17:31.450 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+13-Nov-2023 15:17:41.461 WARNING [Thread-1] org.apache.tomcat.util.net.Acceptor.stop The acceptor thread [http-nio-8080-Acceptor] did not stop cleanly
+13-Nov-2023 15:17:41.485 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+13-Nov-2023 15:18:01.442 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.82
+13-Nov-2023 15:18:01.452 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Oct 11 2023 13:15:08 UTC
+13-Nov-2023 15:18:01.452 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.82.0
+13-Nov-2023 15:18:01.453 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+13-Nov-2023 15:18:01.453 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+13-Nov-2023 15:18:01.454 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+13-Nov-2023 15:18:01.454 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-11.0.9
+13-Nov-2023 15:18:01.454 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.9+7-LTS
+13-Nov-2023 15:18:01.454 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+13-Nov-2023 15:18:01.454 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\Rajan\IdeaProjects\SpringSecurityUsingJavaAnnotation
+13-Nov-2023 15:18:01.455 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\Rajan\Tomcat
+13-Nov-2023 15:18:01.499 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+13-Nov-2023 15:18:01.500 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+13-Nov-2023 15:18:01.501 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+13-Nov-2023 15:18:01.501 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+13-Nov-2023 15:18:01.502 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+13-Nov-2023 15:18:01.502 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -agentlib:jdwp=transport=dt_socket,address=127.0.0.1:53247,suspend=y,server=n
+13-Nov-2023 15:18:01.502 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\Rajan\Tomcat
+13-Nov-2023 15:18:01.502 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\Rajan\IdeaProjects\SpringSecurityUsingJavaAnnotation
+13-Nov-2023 15:18:01.503 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\Rajan\IdeaProjects\SpringSecurityUsingJavaAnnotation\temp
+13-Nov-2023 15:18:01.503 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\Rajan\IdeaProjects\SpringSecurityUsingJavaAnnotation\conf\logging.properties
+13-Nov-2023 15:18:01.503 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+13-Nov-2023 15:18:01.509 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:C:\Users\Rajan\AppData\Local\JetBrains\IdeaIC2020.3\captureAgent\debugger-agent.jar
+13-Nov-2023 15:18:01.512 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+13-Nov-2023 15:18:01.524 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.39] using APR version [1.7.4].
+13-Nov-2023 15:18:01.525 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+13-Nov-2023 15:18:01.525 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+13-Nov-2023 15:18:01.540 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.0.11 19 Sep 2023]
+13-Nov-2023 15:18:03.104 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+13-Nov-2023 15:18:03.214 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [2771] milliseconds
+13-Nov-2023 15:18:03.614 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+13-Nov-2023 15:18:03.615 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.82]
+13-Nov-2023 15:18:03.664 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\Rajan\IdeaProjects\SpringSecurityUsingJavaAnnotation\conf\Catalina\localhost\SpringSecurityUsingJavaAnnotation.xml]
+13-Nov-2023 15:18:09.920 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+13-Nov-2023 15:18:10.896 INFO [main] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization started
+13-Nov-2023 15:18:10.923 INFO [main] org.springframework.web.context.support.AnnotationConfigWebApplicationContext.prepareRefresh Refreshing Root WebApplicationContext: startup date [Mon Nov 13 15:18:10 IST 2023]; root of context hierarchy
+13-Nov-2023 15:18:11.171 INFO [main] org.springframework.web.context.support.AnnotationConfigWebApplicationContext.loadBeanDefinitions Registering annotated classes: [class com.journaldev.spring.secuity.config.LoginApplicationConfig]
+13-Nov-2023 15:18:14.888 INFO [main] org.springframework.security.web.DefaultSecurityFilterChain.<init> Creating filter chain: org.springframework.security.web.util.matcher.AnyRequestMatcher@1, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@34e4fb39, org.springframework.security.web.context.SecurityContextPersistenceFilter@511bfbb0, org.springframework.security.web.header.HeaderWriterFilter@77881b7a, org.springframework.security.web.csrf.CsrfFilter@7acb5200, org.springframework.security.web.authentication.logout.LogoutFilter@20f99c18, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@35f22eef, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@27a6384b, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2e030cc1, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@36fe83d, org.springframework.security.web.session.SessionManagementFilter@55f23335, org.springframework.security.web.access.ExceptionTranslationFilter@36ab69d9, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@468f2a6f]
+13-Nov-2023 15:18:15.791 INFO [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.registerHandlerMethod Mapped "{[/],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.journaldev.spring.web.controller.HomeController.index()
+13-Nov-2023 15:18:15.951 INFO [main] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization completed in 5054 ms
+13-Nov-2023 15:18:16.313 WARNING [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [359] milliseconds.
+13-Nov-2023 15:18:16.374 INFO [main] org.springframework.web.servlet.DispatcherServlet.initServletBean FrameworkServlet 'dispatcher': initialization started
+13-Nov-2023 15:18:16.380 INFO [main] org.springframework.web.context.support.AnnotationConfigWebApplicationContext.prepareRefresh Refreshing WebApplicationContext for namespace 'dispatcher-servlet': startup date [Mon Nov 13 15:18:16 IST 2023]; parent: Root WebApplicationContext
+13-Nov-2023 15:18:16.475 INFO [main] org.springframework.web.servlet.DispatcherServlet.initServletBean FrameworkServlet 'dispatcher': initialization completed in 100 ms
+13-Nov-2023 15:18:16.496 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\Rajan\IdeaProjects\SpringSecurityUsingJavaAnnotation\conf\Catalina\localhost\SpringSecurityUsingJavaAnnotation.xml] has finished in [12,835] ms
+13-Nov-2023 15:18:16.505 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+13-Nov-2023 15:18:16.544 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [13329] milliseconds
+13-Nov-2023 15:19:23.521 WARNING [http-nio-8080-exec-8] org.springframework.web.servlet.PageNotFound.noHandlerFound No mapping found for HTTP request with URI [/SpringSecurityUsingJavaAnnotation/index] in DispatcherServlet with name 'dispatcher'
+13-Nov-2023 15:20:51.116 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+13-Nov-2023 15:20:53.489 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+13-Nov-2023 15:20:53.495 INFO [Thread-1] org.springframework.web.context.support.AnnotationConfigWebApplicationContext.doClose Closing WebApplicationContext for namespace 'dispatcher-servlet': startup date [Mon Nov 13 15:18:16 IST 2023]; parent: Root WebApplicationContext
+13-Nov-2023 15:20:53.504 INFO [Thread-1] org.springframework.web.context.support.AnnotationConfigWebApplicationContext.doClose Closing Root WebApplicationContext: startup date [Mon Nov 13 15:18:10 IST 2023]; root of context hierarchy
+13-Nov-2023 15:20:53.535 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+13-Nov-2023 15:21:03.538 WARNING [Thread-1] org.apache.tomcat.util.net.Acceptor.stop The acceptor thread [http-nio-8080-Acceptor] did not stop cleanly
+13-Nov-2023 15:21:03.547 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+13-Nov-2023 15:21:12.869 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.82
+13-Nov-2023 15:21:12.879 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Oct 11 2023 13:15:08 UTC
+13-Nov-2023 15:21:12.879 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.82.0
+13-Nov-2023 15:21:12.880 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+13-Nov-2023 15:21:12.880 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+13-Nov-2023 15:21:12.880 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+13-Nov-2023 15:21:12.880 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-11.0.9
+13-Nov-2023 15:21:12.880 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.9+7-LTS
+13-Nov-2023 15:21:12.881 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+13-Nov-2023 15:21:12.881 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\Rajan\IdeaProjects\SpringSecurityUsingJavaAnnotation
+13-Nov-2023 15:21:12.881 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\Rajan\Tomcat
+13-Nov-2023 15:21:12.925 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+13-Nov-2023 15:21:12.926 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+13-Nov-2023 15:21:12.926 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+13-Nov-2023 15:21:12.926 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+13-Nov-2023 15:21:12.927 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+13-Nov-2023 15:21:12.927 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -agentlib:jdwp=transport=dt_socket,address=127.0.0.1:53318,suspend=y,server=n
+13-Nov-2023 15:21:12.927 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\Rajan\Tomcat
+13-Nov-2023 15:21:12.927 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\Rajan\IdeaProjects\SpringSecurityUsingJavaAnnotation
+13-Nov-2023 15:21:12.927 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\Rajan\IdeaProjects\SpringSecurityUsingJavaAnnotation\temp
+13-Nov-2023 15:21:12.928 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\Rajan\IdeaProjects\SpringSecurityUsingJavaAnnotation\conf\logging.properties
+13-Nov-2023 15:21:12.928 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+13-Nov-2023 15:21:12.928 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:C:\Users\Rajan\AppData\Local\JetBrains\IdeaIC2020.3\captureAgent\debugger-agent.jar
+13-Nov-2023 15:21:12.928 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+13-Nov-2023 15:21:12.937 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.39] using APR version [1.7.4].
+13-Nov-2023 15:21:12.940 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+13-Nov-2023 15:21:12.941 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+13-Nov-2023 15:21:12.958 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.0.11 19 Sep 2023]
+13-Nov-2023 15:21:14.029 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+13-Nov-2023 15:21:14.156 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [2163] milliseconds
+13-Nov-2023 15:21:14.376 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+13-Nov-2023 15:21:14.377 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.82]
+13-Nov-2023 15:21:14.405 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\Rajan\IdeaProjects\SpringSecurityUsingJavaAnnotation\conf\Catalina\localhost\SpringSecurityUsingJavaAnnotation.xml]
+13-Nov-2023 15:21:19.198 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+13-Nov-2023 15:21:20.026 INFO [main] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization started
+13-Nov-2023 15:21:20.052 INFO [main] org.springframework.web.context.support.AnnotationConfigWebApplicationContext.prepareRefresh Refreshing Root WebApplicationContext: startup date [Mon Nov 13 15:21:20 IST 2023]; root of context hierarchy
+13-Nov-2023 15:21:20.291 INFO [main] org.springframework.web.context.support.AnnotationConfigWebApplicationContext.loadBeanDefinitions Registering annotated classes: [class com.journaldev.spring.secuity.config.LoginApplicationConfig]
+13-Nov-2023 15:21:24.033 INFO [main] org.springframework.security.web.DefaultSecurityFilterChain.<init> Creating filter chain: org.springframework.security.web.util.matcher.AnyRequestMatcher@1, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@34647f58, org.springframework.security.web.context.SecurityContextPersistenceFilter@1bbb48dd, org.springframework.security.web.header.HeaderWriterFilter@3436d3d7, org.springframework.security.web.csrf.CsrfFilter@5016f1a, org.springframework.security.web.authentication.logout.LogoutFilter@a2fb8a5, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@6ba355e4, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@6f7b8ae1, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@7b2f8152, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7c871ce4, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4be7acd9, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@14b96c1e, org.springframework.security.web.session.SessionManagementFilter@2e47a71e, org.springframework.security.web.access.ExceptionTranslationFilter@68550d86, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@6ef61cd0]
+13-Nov-2023 15:21:24.379 INFO [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.registerHandlerMethod Mapped "{[/],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.journaldev.spring.web.controller.HomeController.index()
+13-Nov-2023 15:21:25.077 INFO [main] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization completed in 5051 ms
+13-Nov-2023 15:21:25.468 WARNING [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [388] milliseconds.
+13-Nov-2023 15:21:25.523 INFO [main] org.springframework.web.servlet.DispatcherServlet.initServletBean FrameworkServlet 'dispatcher': initialization started
+13-Nov-2023 15:21:25.529 INFO [main] org.springframework.web.context.support.AnnotationConfigWebApplicationContext.prepareRefresh Refreshing WebApplicationContext for namespace 'dispatcher-servlet': startup date [Mon Nov 13 15:21:25 IST 2023]; parent: Root WebApplicationContext
+13-Nov-2023 15:21:25.612 INFO [main] org.springframework.web.servlet.DispatcherServlet.initServletBean FrameworkServlet 'dispatcher': initialization completed in 89 ms
+13-Nov-2023 15:21:25.631 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\Rajan\IdeaProjects\SpringSecurityUsingJavaAnnotation\conf\Catalina\localhost\SpringSecurityUsingJavaAnnotation.xml] has finished in [11,226] ms
+13-Nov-2023 15:21:25.642 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+13-Nov-2023 15:21:25.707 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [11549] milliseconds
+13-Nov-2023 15:21:46.382 WARNING [http-nio-8080-exec-3] org.springframework.web.servlet.PageNotFound.noHandlerFound No mapping found for HTTP request with URI [/SpringSecurityUsingJavaAnnotation/index] in DispatcherServlet with name 'dispatcher'
+13-Nov-2023 15:22:53.146 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+13-Nov-2023 15:22:53.522 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+13-Nov-2023 15:22:53.526 INFO [Thread-1] org.springframework.web.context.support.AnnotationConfigWebApplicationContext.doClose Closing WebApplicationContext for namespace 'dispatcher-servlet': startup date [Mon Nov 13 15:21:25 IST 2023]; parent: Root WebApplicationContext
+13-Nov-2023 15:22:53.534 INFO [Thread-1] org.springframework.web.context.support.AnnotationConfigWebApplicationContext.doClose Closing Root WebApplicationContext: startup date [Mon Nov 13 15:21:20 IST 2023]; root of context hierarchy
+13-Nov-2023 15:22:53.564 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+13-Nov-2023 15:22:53.584 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+13-Nov-2023 15:23:16.292 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.82
+13-Nov-2023 15:23:16.300 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Oct 11 2023 13:15:08 UTC
+13-Nov-2023 15:23:16.301 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.82.0
+13-Nov-2023 15:23:16.301 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+13-Nov-2023 15:23:16.301 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+13-Nov-2023 15:23:16.302 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+13-Nov-2023 15:23:16.303 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-11.0.9
+13-Nov-2023 15:23:16.303 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.9+7-LTS
+13-Nov-2023 15:23:16.307 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+13-Nov-2023 15:23:16.307 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\Rajan\IdeaProjects\SpringSecurityUsingJavaAnnotation
+13-Nov-2023 15:23:16.307 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\Rajan\Tomcat
+13-Nov-2023 15:23:16.330 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+13-Nov-2023 15:23:16.331 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+13-Nov-2023 15:23:16.331 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+13-Nov-2023 15:23:16.332 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+13-Nov-2023 15:23:16.332 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+13-Nov-2023 15:23:16.333 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -agentlib:jdwp=transport=dt_socket,address=127.0.0.1:53355,suspend=y,server=n
+13-Nov-2023 15:23:16.333 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\Rajan\Tomcat
+13-Nov-2023 15:23:16.333 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\Rajan\IdeaProjects\SpringSecurityUsingJavaAnnotation
+13-Nov-2023 15:23:16.333 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\Rajan\IdeaProjects\SpringSecurityUsingJavaAnnotation\temp
+13-Nov-2023 15:23:16.333 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\Rajan\IdeaProjects\SpringSecurityUsingJavaAnnotation\conf\logging.properties
+13-Nov-2023 15:23:16.333 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+13-Nov-2023 15:23:16.334 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:C:\Users\Rajan\AppData\Local\JetBrains\IdeaIC2020.3\captureAgent\debugger-agent.jar
+13-Nov-2023 15:23:16.334 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+13-Nov-2023 15:23:16.341 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.39] using APR version [1.7.4].
+13-Nov-2023 15:23:16.342 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+13-Nov-2023 15:23:16.342 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+13-Nov-2023 15:23:16.359 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.0.11 19 Sep 2023]
+13-Nov-2023 15:23:17.377 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+13-Nov-2023 15:23:17.463 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1795] milliseconds
+13-Nov-2023 15:23:17.687 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+13-Nov-2023 15:23:17.688 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.82]
+13-Nov-2023 15:23:17.723 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\Rajan\IdeaProjects\SpringSecurityUsingJavaAnnotation\conf\Catalina\localhost\SpringSecurityUsingJavaAnnotation.xml]
+13-Nov-2023 15:23:22.545 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+13-Nov-2023 15:23:23.307 INFO [main] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization started
+13-Nov-2023 15:23:23.338 INFO [main] org.springframework.web.context.support.AnnotationConfigWebApplicationContext.prepareRefresh Refreshing Root WebApplicationContext: startup date [Mon Nov 13 15:23:23 IST 2023]; root of context hierarchy
+13-Nov-2023 15:23:23.591 INFO [main] org.springframework.web.context.support.AnnotationConfigWebApplicationContext.loadBeanDefinitions Registering annotated classes: [class com.journaldev.spring.secuity.config.LoginApplicationConfig]
+13-Nov-2023 15:23:27.116 INFO [main] org.springframework.security.web.DefaultSecurityFilterChain.<init> Creating filter chain: Ant [pattern='/'], [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5ffdd510, org.springframework.security.web.context.SecurityContextPersistenceFilter@1cca3e8c, org.springframework.security.web.header.HeaderWriterFilter@4a45ca1c, org.springframework.security.web.csrf.CsrfFilter@69cc49ec, org.springframework.security.web.authentication.logout.LogoutFilter@767d9b9, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@50e24ea4, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@50d05167, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@a80a896, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@8c18bde, org.springframework.security.web.session.SessionManagementFilter@38093ffe, org.springframework.security.web.access.ExceptionTranslationFilter@e97f51c, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@126a9a77]
+13-Nov-2023 15:23:28.122 INFO [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.registerHandlerMethod Mapped "{[/],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.journaldev.spring.web.controller.HomeController.index()
+13-Nov-2023 15:23:28.212 INFO [main] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization completed in 4905 ms
+13-Nov-2023 15:23:28.577 WARNING [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [362] milliseconds.
+13-Nov-2023 15:23:28.627 INFO [main] org.springframework.web.servlet.DispatcherServlet.initServletBean FrameworkServlet 'dispatcher': initialization started
+13-Nov-2023 15:23:28.634 INFO [main] org.springframework.web.context.support.AnnotationConfigWebApplicationContext.prepareRefresh Refreshing WebApplicationContext for namespace 'dispatcher-servlet': startup date [Mon Nov 13 15:23:28 IST 2023]; parent: Root WebApplicationContext
+13-Nov-2023 15:23:28.754 INFO [main] org.springframework.web.servlet.DispatcherServlet.initServletBean FrameworkServlet 'dispatcher': initialization completed in 127 ms
+13-Nov-2023 15:23:28.770 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\Rajan\IdeaProjects\SpringSecurityUsingJavaAnnotation\conf\Catalina\localhost\SpringSecurityUsingJavaAnnotation.xml] has finished in [11,046] ms
+13-Nov-2023 15:23:28.778 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+13-Nov-2023 15:23:28.824 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [11361] milliseconds
+13-Nov-2023 15:26:14.631 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+13-Nov-2023 15:26:15.115 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+13-Nov-2023 15:26:15.124 INFO [Thread-1] org.springframework.web.context.support.AnnotationConfigWebApplicationContext.doClose Closing WebApplicationContext for namespace 'dispatcher-servlet': startup date [Mon Nov 13 15:23:28 IST 2023]; parent: Root WebApplicationContext
+13-Nov-2023 15:26:15.135 INFO [Thread-1] org.springframework.web.context.support.AnnotationConfigWebApplicationContext.doClose Closing Root WebApplicationContext: startup date [Mon Nov 13 15:23:23 IST 2023]; root of context hierarchy
+13-Nov-2023 15:26:15.168 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+13-Nov-2023 15:26:15.177 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+13-Nov-2023 15:26:35.147 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.82
+13-Nov-2023 15:26:35.154 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Oct 11 2023 13:15:08 UTC
+13-Nov-2023 15:26:35.156 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.82.0
+13-Nov-2023 15:26:35.157 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+13-Nov-2023 15:26:35.157 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+13-Nov-2023 15:26:35.157 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+13-Nov-2023 15:26:35.157 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-11.0.9
+13-Nov-2023 15:26:35.157 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.9+7-LTS
+13-Nov-2023 15:26:35.158 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+13-Nov-2023 15:26:35.158 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\Rajan\IdeaProjects\SpringSecurityUsingJavaAnnotation
+13-Nov-2023 15:26:35.158 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\Rajan\Tomcat
+13-Nov-2023 15:26:35.180 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+13-Nov-2023 15:26:35.181 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+13-Nov-2023 15:26:35.181 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+13-Nov-2023 15:26:35.181 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+13-Nov-2023 15:26:35.181 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+13-Nov-2023 15:26:35.181 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\Rajan\Tomcat
+13-Nov-2023 15:26:35.182 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\Rajan\IdeaProjects\SpringSecurityUsingJavaAnnotation
+13-Nov-2023 15:26:35.182 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\Rajan\IdeaProjects\SpringSecurityUsingJavaAnnotation\temp
+13-Nov-2023 15:26:35.182 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\Rajan\IdeaProjects\SpringSecurityUsingJavaAnnotation\conf\logging.properties
+13-Nov-2023 15:26:35.182 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+13-Nov-2023 15:26:35.182 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.3\lib\idea_rt.jar=53427:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.3\bin
+13-Nov-2023 15:26:35.183 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+13-Nov-2023 15:26:35.190 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.39] using APR version [1.7.4].
+13-Nov-2023 15:26:35.190 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+13-Nov-2023 15:26:35.191 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+13-Nov-2023 15:26:35.207 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.0.11 19 Sep 2023]
+13-Nov-2023 15:26:35.966 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+13-Nov-2023 15:26:36.010 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1642] milliseconds
+13-Nov-2023 15:26:36.182 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+13-Nov-2023 15:26:36.182 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.82]
+13-Nov-2023 15:26:36.231 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\Rajan\IdeaProjects\SpringSecurityUsingJavaAnnotation\conf\Catalina\localhost\SpringSecurityUsingJavaAnnotation.xml]
+13-Nov-2023 15:26:40.911 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+13-Nov-2023 15:26:41.582 INFO [main] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization started
+13-Nov-2023 15:26:41.608 INFO [main] org.springframework.web.context.support.AnnotationConfigWebApplicationContext.prepareRefresh Refreshing Root WebApplicationContext: startup date [Mon Nov 13 15:26:41 IST 2023]; root of context hierarchy
+13-Nov-2023 15:26:41.940 INFO [main] org.springframework.web.context.support.AnnotationConfigWebApplicationContext.loadBeanDefinitions Registering annotated classes: [class com.journaldev.spring.secuity.config.LoginApplicationConfig]
+13-Nov-2023 15:26:43.728 SEVERE [main] org.springframework.web.context.ContextLoader.initWebApplicationContext Context initialization failed
+	org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'loginSecurityConfig': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: ROLE_USER cannot start with ROLE_ (it is automatically added)
+		at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:292)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1185)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:537)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:475)
+		at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:304)
+		at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:228)
+		at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:300)
+		at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:195)
+		at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:700)
+		at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:760)
+		at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:482)
+		at org.springframework.web.context.ContextLoader.configureAndRefreshWebApplicationContext(ContextLoader.java:403)
+		at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:306)
+		at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:106)
+		at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4460)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4914)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:683)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:658)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:661)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:689)
+		at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1888)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:118)
+		at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:582)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:472)
+		at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1617)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:318)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:114)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:402)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:345)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:893)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:794)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1332)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1322)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:140)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:866)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:248)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:433)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:921)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:772)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:347)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:478)
+	Caused by: java.lang.IllegalArgumentException: ROLE_USER cannot start with ROLE_ (it is automatically added)
+		at org.springframework.util.Assert.isTrue(Assert.java:65)
+		at org.springframework.security.config.annotation.authentication.configurers.provisioning.UserDetailsManagerConfigurer$UserDetailsBuilder.roles(UserDetailsManagerConfigurer.java:171)
+		at com.journaldev.spring.secuity.config.LoginSecurityConfig.configureGlobal(LoginSecurityConfig.java:45)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+		at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredMethodElement.inject(AutowiredAnnotationBeanPostProcessor.java:589)
+		at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:87)
+		at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:289)
+		... 54 more
+13-Nov-2023 15:26:43.736 SEVERE [main] org.apache.catalina.core.StandardContext.startInternal One or more listeners failed to start. Full details will be found in the appropriate container log file
+13-Nov-2023 15:26:44.210 WARNING [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [471] milliseconds.
+13-Nov-2023 15:26:44.263 SEVERE [main] org.apache.catalina.core.StandardContext.startInternal Context [/SpringSecurityUsingJavaAnnotation] startup failed due to previous errors
+13-Nov-2023 15:26:44.285 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\Rajan\IdeaProjects\SpringSecurityUsingJavaAnnotation\conf\Catalina\localhost\SpringSecurityUsingJavaAnnotation.xml] has finished in [8,054] ms
+13-Nov-2023 15:26:44.290 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+13-Nov-2023 15:26:44.751 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [8740] milliseconds
+13-Nov-2023 15:27:23.195 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.82
+13-Nov-2023 15:27:23.202 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Oct 11 2023 13:15:08 UTC
+13-Nov-2023 15:27:23.202 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.82.0
+13-Nov-2023 15:27:23.203 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+13-Nov-2023 15:27:23.203 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+13-Nov-2023 15:27:23.203 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+13-Nov-2023 15:27:23.203 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-11.0.9
+13-Nov-2023 15:27:23.203 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.9+7-LTS
+13-Nov-2023 15:27:23.203 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+13-Nov-2023 15:27:23.204 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\Rajan\IdeaProjects\SpringSecurityUsingJavaAnnotation
+13-Nov-2023 15:27:23.204 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\Rajan\Tomcat
+13-Nov-2023 15:27:23.233 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+13-Nov-2023 15:27:23.234 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+13-Nov-2023 15:27:23.234 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+13-Nov-2023 15:27:23.234 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+13-Nov-2023 15:27:23.235 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+13-Nov-2023 15:27:23.235 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\Rajan\Tomcat
+13-Nov-2023 15:27:23.235 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\Rajan\IdeaProjects\SpringSecurityUsingJavaAnnotation
+13-Nov-2023 15:27:23.235 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\Rajan\IdeaProjects\SpringSecurityUsingJavaAnnotation\temp
+13-Nov-2023 15:27:23.235 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\Rajan\IdeaProjects\SpringSecurityUsingJavaAnnotation\conf\logging.properties
+13-Nov-2023 15:27:23.236 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+13-Nov-2023 15:27:23.236 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.3\lib\idea_rt.jar=53442:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.3\bin
+13-Nov-2023 15:27:23.236 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+13-Nov-2023 15:27:23.252 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.39] using APR version [1.7.4].
+13-Nov-2023 15:27:23.252 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+13-Nov-2023 15:27:23.252 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+13-Nov-2023 15:27:23.268 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.0.11 19 Sep 2023]
+13-Nov-2023 15:27:24.018 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+13-Nov-2023 15:27:24.069 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1554] milliseconds
+13-Nov-2023 15:27:24.205 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+13-Nov-2023 15:27:24.205 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.82]
+13-Nov-2023 15:27:24.228 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\Rajan\IdeaProjects\SpringSecurityUsingJavaAnnotation\conf\Catalina\localhost\SpringSecurityUsingJavaAnnotation.xml]
+13-Nov-2023 15:27:29.376 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+13-Nov-2023 15:27:30.111 INFO [main] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization started
+13-Nov-2023 15:27:30.132 INFO [main] org.springframework.web.context.support.AnnotationConfigWebApplicationContext.prepareRefresh Refreshing Root WebApplicationContext: startup date [Mon Nov 13 15:27:30 IST 2023]; root of context hierarchy
+13-Nov-2023 15:27:30.358 INFO [main] org.springframework.web.context.support.AnnotationConfigWebApplicationContext.loadBeanDefinitions Registering annotated classes: [class com.journaldev.spring.secuity.config.LoginApplicationConfig]
+13-Nov-2023 15:27:33.658 INFO [main] org.springframework.security.web.DefaultSecurityFilterChain.<init> Creating filter chain: Ant [pattern='/'], [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@116915f1, org.springframework.security.web.context.SecurityContextPersistenceFilter@5db90818, org.springframework.security.web.header.HeaderWriterFilter@337cb81d, org.springframework.security.web.csrf.CsrfFilter@d65e744, org.springframework.security.web.authentication.logout.LogoutFilter@998fbd4, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@63636de0, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7378c4a4, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3d8fd373, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@27bbe773, org.springframework.security.web.session.SessionManagementFilter@64dcf763, org.springframework.security.web.access.ExceptionTranslationFilter@283ecb4b, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@699bb304]
+13-Nov-2023 15:27:34.523 INFO [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.registerHandlerMethod Mapped "{[/],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.journaldev.spring.web.controller.HomeController.index()
+13-Nov-2023 15:27:34.632 INFO [main] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization completed in 4521 ms
+13-Nov-2023 15:27:35.037 WARNING [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [403] milliseconds.
+13-Nov-2023 15:27:35.079 INFO [main] org.springframework.web.servlet.DispatcherServlet.initServletBean FrameworkServlet 'dispatcher': initialization started
+13-Nov-2023 15:27:35.086 INFO [main] org.springframework.web.context.support.AnnotationConfigWebApplicationContext.prepareRefresh Refreshing WebApplicationContext for namespace 'dispatcher-servlet': startup date [Mon Nov 13 15:27:35 IST 2023]; parent: Root WebApplicationContext
+13-Nov-2023 15:27:35.161 INFO [main] org.springframework.web.servlet.DispatcherServlet.initServletBean FrameworkServlet 'dispatcher': initialization completed in 82 ms
+13-Nov-2023 15:27:35.180 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\Rajan\IdeaProjects\SpringSecurityUsingJavaAnnotation\conf\Catalina\localhost\SpringSecurityUsingJavaAnnotation.xml] has finished in [10,952] ms
+13-Nov-2023 15:27:35.186 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+13-Nov-2023 15:27:35.211 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [11142] milliseconds
+13-Nov-2023 15:27:45.446 WARNING [http-nio-8080-exec-3] org.springframework.web.servlet.PageNotFound.noHandlerFound No mapping found for HTTP request with URI [/SpringSecurityUsingJavaAnnotation/index] in DispatcherServlet with name 'dispatcher'
+13-Nov-2023 15:30:05.677 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.82
+13-Nov-2023 15:30:05.702 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Oct 11 2023 13:15:08 UTC
+13-Nov-2023 15:30:05.702 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.82.0
+13-Nov-2023 15:30:05.702 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+13-Nov-2023 15:30:05.703 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+13-Nov-2023 15:30:05.703 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+13-Nov-2023 15:30:05.703 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-11.0.9
+13-Nov-2023 15:30:05.703 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.9+7-LTS
+13-Nov-2023 15:30:05.703 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+13-Nov-2023 15:30:05.703 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\Rajan\IdeaProjects\SpringSecurityUsingJavaAnnotation
+13-Nov-2023 15:30:05.703 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\Rajan\Tomcat
+13-Nov-2023 15:30:05.737 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+13-Nov-2023 15:30:05.738 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+13-Nov-2023 15:30:05.738 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+13-Nov-2023 15:30:05.738 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+13-Nov-2023 15:30:05.739 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+13-Nov-2023 15:30:05.739 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\Rajan\Tomcat
+13-Nov-2023 15:30:05.739 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\Rajan\IdeaProjects\SpringSecurityUsingJavaAnnotation
+13-Nov-2023 15:30:05.740 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\Rajan\IdeaProjects\SpringSecurityUsingJavaAnnotation\temp
+13-Nov-2023 15:30:05.740 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\Rajan\IdeaProjects\SpringSecurityUsingJavaAnnotation\conf\logging.properties
+13-Nov-2023 15:30:05.740 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+13-Nov-2023 15:30:05.741 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.3\lib\idea_rt.jar=53483:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.3\bin
+13-Nov-2023 15:30:05.741 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+13-Nov-2023 15:30:05.750 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.39] using APR version [1.7.4].
+13-Nov-2023 15:30:05.751 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+13-Nov-2023 15:30:05.751 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+13-Nov-2023 15:30:05.768 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.0.11 19 Sep 2023]
+13-Nov-2023 15:30:06.562 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+13-Nov-2023 15:30:06.620 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1637] milliseconds
+13-Nov-2023 15:30:06.759 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+13-Nov-2023 15:30:06.759 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.82]
+13-Nov-2023 15:30:06.785 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\Rajan\IdeaProjects\SpringSecurityUsingJavaAnnotation\conf\Catalina\localhost\SpringSecurityUsingJavaAnnotation.xml]
+13-Nov-2023 15:30:11.345 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+13-Nov-2023 15:30:12.044 INFO [main] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization started
+13-Nov-2023 15:30:12.066 INFO [main] org.springframework.web.context.support.AnnotationConfigWebApplicationContext.prepareRefresh Refreshing Root WebApplicationContext: startup date [Mon Nov 13 15:30:12 IST 2023]; root of context hierarchy
+13-Nov-2023 15:30:12.290 INFO [main] org.springframework.web.context.support.AnnotationConfigWebApplicationContext.loadBeanDefinitions Registering annotated classes: [class com.journaldev.spring.secuity.config.LoginApplicationConfig]
+13-Nov-2023 15:30:15.357 INFO [main] org.springframework.security.web.DefaultSecurityFilterChain.<init> Creating filter chain: Ant [pattern='/'], [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@628bcf2c, org.springframework.security.web.context.SecurityContextPersistenceFilter@64fc6470, org.springframework.security.web.header.HeaderWriterFilter@fcd3a6f, org.springframework.security.web.csrf.CsrfFilter@14c5283, org.springframework.security.web.authentication.logout.LogoutFilter@96075c0, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@17e2835c, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6bd2f039, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@75c15f76, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4b76251c, org.springframework.security.web.session.SessionManagementFilter@53fc870f, org.springframework.security.web.access.ExceptionTranslationFilter@73852720, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@26feccf7]
+13-Nov-2023 15:30:16.227 INFO [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.registerHandlerMethod Mapped "{[/],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.journaldev.spring.web.controller.HomeController.index()
+13-Nov-2023 15:30:16.323 INFO [main] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization completed in 4279 ms
+13-Nov-2023 15:30:16.720 WARNING [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [394] milliseconds.
+13-Nov-2023 15:30:16.735 INFO [main] org.springframework.web.servlet.DispatcherServlet.initServletBean FrameworkServlet 'dispatcher': initialization started
+13-Nov-2023 15:30:16.741 INFO [main] org.springframework.web.context.support.AnnotationConfigWebApplicationContext.prepareRefresh Refreshing WebApplicationContext for namespace 'dispatcher-servlet': startup date [Mon Nov 13 15:30:16 IST 2023]; parent: Root WebApplicationContext
+13-Nov-2023 15:30:16.810 INFO [main] org.springframework.web.servlet.DispatcherServlet.initServletBean FrameworkServlet 'dispatcher': initialization completed in 74 ms
+13-Nov-2023 15:30:16.825 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\Rajan\IdeaProjects\SpringSecurityUsingJavaAnnotation\conf\Catalina\localhost\SpringSecurityUsingJavaAnnotation.xml] has finished in [10,039] ms
+13-Nov-2023 15:30:16.832 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+13-Nov-2023 15:30:16.856 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [10236] milliseconds

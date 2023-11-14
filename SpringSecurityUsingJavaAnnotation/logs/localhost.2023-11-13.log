@@ -1,0 +1,176 @@
+13-Nov-2023 14:58:56.834 INFO [main] org.apache.catalina.core.ApplicationContext.log Spring WebApplicationInitializers detected on classpath: [core.SpringMVCWebAppInitializer@716ae973, core.SpringSecurityInitializer@1171ba7e]
+13-Nov-2023 14:58:57.303 INFO [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+13-Nov-2023 14:59:00.793 SEVERE [main] org.apache.catalina.core.StandardContext.listenerStart Exception sending context initialized event to listener instance of class [org.springframework.web.context.ContextLoaderListener]
+	org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'com.journaldev.spring.web.controller.LoginController$HomeController': Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Could not instantiate bean class [com.journaldev.spring.web.controller.LoginController$HomeController]: No default constructor found; nested exception is java.lang.NoSuchMethodException: com.journaldev.spring.web.controller.LoginController$HomeController.<init>()
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1076)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1021)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:504)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:475)
+		at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:304)
+		at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:228)
+		at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:300)
+		at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:195)
+		at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:700)
+		at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:760)
+		at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:482)
+		at org.springframework.web.context.ContextLoader.configureAndRefreshWebApplicationContext(ContextLoader.java:403)
+		at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:306)
+		at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:106)
+		at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4460)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4914)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:683)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:658)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:661)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:689)
+		at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1888)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:118)
+		at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:582)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:472)
+		at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1617)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:318)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:114)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:402)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:345)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:893)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:794)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1332)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1322)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:140)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:866)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:248)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:433)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:921)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:772)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:347)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:478)
+	Caused by: org.springframework.beans.BeanInstantiationException: Could not instantiate bean class [com.journaldev.spring.web.controller.LoginController$HomeController]: No default constructor found; nested exception is java.lang.NoSuchMethodException: com.journaldev.spring.web.controller.LoginController$HomeController.<init>()
+		at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:85)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1069)
+		... 54 more
+	Caused by: java.lang.NoSuchMethodException: com.journaldev.spring.web.controller.LoginController$HomeController.<init>()
+		at java.base/java.lang.Class.getConstructor0(Class.java:3349)
+		at java.base/java.lang.Class.getDeclaredConstructor(Class.java:2553)
+		at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:80)
+		... 55 more
+13-Nov-2023 14:59:01.271 INFO [main] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+13-Nov-2023 15:00:58.073 INFO [main] org.apache.catalina.core.ApplicationContext.log Spring WebApplicationInitializers detected on classpath: [core.SpringMVCWebAppInitializer@48d5ca17, core.SpringSecurityInitializer@226e07e7]
+13-Nov-2023 15:00:58.536 INFO [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+13-Nov-2023 15:01:03.343 INFO [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'dispatcher'
+13-Nov-2023 15:05:53.432 INFO [main] org.apache.catalina.core.ApplicationContext.log Spring WebApplicationInitializers detected on classpath: [core.SpringMVCWebAppInitializer@15914bb5, core.SpringSecurityInitializer@7b332b23]
+13-Nov-2023 15:05:53.959 INFO [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+13-Nov-2023 15:06:00.344 INFO [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'dispatcher'
+13-Nov-2023 15:08:29.405 INFO [main] org.apache.catalina.core.ApplicationContext.log Spring WebApplicationInitializers detected on classpath: [core.SpringSecurityInitializer@28f90752, core.SpringMVCWebAppInitializer@4f20b022]
+13-Nov-2023 15:08:29.919 INFO [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+13-Nov-2023 15:08:34.798 INFO [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'dispatcher'
+13-Nov-2023 15:12:12.270 INFO [main] org.apache.catalina.core.ApplicationContext.log Spring WebApplicationInitializers detected on classpath: [core.SpringSecurityInitializer@62158991, core.SpringMVCWebAppInitializer@40738846]
+13-Nov-2023 15:12:12.804 INFO [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+13-Nov-2023 15:12:18.152 INFO [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'dispatcher'
+13-Nov-2023 15:17:31.375 INFO [Thread-1] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'dispatcher'
+13-Nov-2023 15:17:31.418 INFO [Thread-1] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+13-Nov-2023 15:18:10.191 INFO [main] org.apache.catalina.core.ApplicationContext.log Spring WebApplicationInitializers detected on classpath: [core.SpringSecurityInitializer@42a05533, core.SpringMVCWebAppInitializer@17053b5]
+13-Nov-2023 15:18:10.896 INFO [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+13-Nov-2023 15:18:16.374 INFO [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'dispatcher'
+13-Nov-2023 15:20:53.494 INFO [Thread-1] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'dispatcher'
+13-Nov-2023 15:20:53.504 INFO [Thread-1] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+13-Nov-2023 15:21:19.453 INFO [main] org.apache.catalina.core.ApplicationContext.log Spring WebApplicationInitializers detected on classpath: [core.SpringMVCWebAppInitializer@2c56eba5, core.SpringSecurityInitializer@6231f77a]
+13-Nov-2023 15:21:20.026 INFO [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+13-Nov-2023 15:21:25.523 INFO [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'dispatcher'
+13-Nov-2023 15:22:53.526 INFO [Thread-1] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'dispatcher'
+13-Nov-2023 15:22:53.534 INFO [Thread-1] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+13-Nov-2023 15:23:22.822 INFO [main] org.apache.catalina.core.ApplicationContext.log Spring WebApplicationInitializers detected on classpath: [core.SpringMVCWebAppInitializer@25e6c22a, core.SpringSecurityInitializer@16fc5622]
+13-Nov-2023 15:23:23.307 INFO [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+13-Nov-2023 15:23:28.627 INFO [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'dispatcher'
+13-Nov-2023 15:26:15.123 INFO [Thread-1] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'dispatcher'
+13-Nov-2023 15:26:15.134 INFO [Thread-1] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+13-Nov-2023 15:26:41.112 INFO [main] org.apache.catalina.core.ApplicationContext.log Spring WebApplicationInitializers detected on classpath: [core.SpringSecurityInitializer@38cb1606, core.SpringMVCWebAppInitializer@61c4cebd]
+13-Nov-2023 15:26:41.582 INFO [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+13-Nov-2023 15:26:43.736 SEVERE [main] org.apache.catalina.core.StandardContext.listenerStart Exception sending context initialized event to listener instance of class [org.springframework.web.context.ContextLoaderListener]
+	org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'loginSecurityConfig': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: ROLE_USER cannot start with ROLE_ (it is automatically added)
+		at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:292)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1185)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:537)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:475)
+		at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:304)
+		at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:228)
+		at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:300)
+		at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:195)
+		at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:700)
+		at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:760)
+		at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:482)
+		at org.springframework.web.context.ContextLoader.configureAndRefreshWebApplicationContext(ContextLoader.java:403)
+		at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:306)
+		at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:106)
+		at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4460)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4914)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:683)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:658)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:661)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:689)
+		at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1888)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:118)
+		at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:582)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:472)
+		at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1617)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:318)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:114)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:402)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:345)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:893)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:794)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1332)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1322)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:140)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:866)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:248)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:433)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:921)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:772)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:347)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:478)
+	Caused by: java.lang.IllegalArgumentException: ROLE_USER cannot start with ROLE_ (it is automatically added)
+		at org.springframework.util.Assert.isTrue(Assert.java:65)
+		at org.springframework.security.config.annotation.authentication.configurers.provisioning.UserDetailsManagerConfigurer$UserDetailsBuilder.roles(UserDetailsManagerConfigurer.java:171)
+		at com.journaldev.spring.secuity.config.LoginSecurityConfig.configureGlobal(LoginSecurityConfig.java:45)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+		at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredMethodElement.inject(AutowiredAnnotationBeanPostProcessor.java:589)
+		at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:87)
+		at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:289)
+		... 54 more
+13-Nov-2023 15:26:44.272 INFO [main] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+13-Nov-2023 15:27:29.591 INFO [main] org.apache.catalina.core.ApplicationContext.log Spring WebApplicationInitializers detected on classpath: [core.SpringSecurityInitializer@30fa8a6b, core.SpringMVCWebAppInitializer@6f112f70]
+13-Nov-2023 15:27:30.111 INFO [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+13-Nov-2023 15:27:35.079 INFO [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'dispatcher'
+13-Nov-2023 15:30:11.529 INFO [main] org.apache.catalina.core.ApplicationContext.log Spring WebApplicationInitializers detected on classpath: [core.SpringSecurityInitializer@28f90752, core.SpringMVCWebAppInitializer@4f20b022]
+13-Nov-2023 15:30:12.044 INFO [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+13-Nov-2023 15:30:16.735 INFO [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'dispatcher'
