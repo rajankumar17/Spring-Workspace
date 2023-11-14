@@ -1,5 +1,0 @@
-com\journaldev\spring\secuity\config\LoginApplicationConfig.class
-com\journaldev\spring\web\controller\HomeController.class
-core\SpringMVCWebAppInitializer.class
-core\SpringSecurityInitializer.class
-com\journaldev\spring\secuity\config\LoginSecurityConfig.class

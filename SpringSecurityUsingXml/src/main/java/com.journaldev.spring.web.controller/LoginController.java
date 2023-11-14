@@ -32,4 +32,11 @@ public class LoginController {
 		return "login";
 
 	}
+
+	@RequestMapping(value = "/403", method = RequestMethod.GET)
+	public String accessDenied(ModelMap model, Principal principal) {
+		String username = principal.getName();
+		model.addAttribute("message", "Sorry "+username+" You don't have privileges to view this page!!!");
+		return "403";
+	}
 }

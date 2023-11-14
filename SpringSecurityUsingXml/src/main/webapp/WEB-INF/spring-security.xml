@@ -9,6 +9,10 @@
   http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
   http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
 
+    <bean id="accessDeniedHandler" class="main.java.com.journaldev.spring.web.controller.MyAccessDeniedHandler">
+        <property name="accessDeniedUrl" value="403" />
+    </bean>
+
     <security:http auto-config="true">
         <security:intercept-url pattern="/index/**" access="hasRole('ADMIN')"/>
         <security:intercept-url pattern="/home/**" access="hasAnyRole('USER','ADMIN')"/>
@@ -16,6 +20,7 @@
         <security:form-login login-page="/login" default-target-url="/index"
                              authentication-failure-url="/fail2login" />
         <security:logout logout-success-url="/login"/>
+        <security:access-denied-handler ref="accessDeniedHandler"/>
     </security:http>
 
     <security:authentication-manager>
@@ -27,5 +32,12 @@
             </security:user-service>
         </security:authentication-provider>
     </security:authentication-manager>
-
+    <bean id="messageSource"
+          class="org.springframework.context.support.ResourceBundleMessageSource">
+        <property name="basenames">
+            <list>
+                <value>src/main/webapp/WEB-INF/il18/message_en.properties</value>
+            </list>
+        </property>
+    </bean>
 </beans>
